@@ -1,5 +1,6 @@
 #include <iostream> // library
 #include <cstring>
+#include <cstdlib>
 #include "Item.h"
 
 using namespace std;
