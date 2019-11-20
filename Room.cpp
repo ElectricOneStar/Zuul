@@ -3,6 +3,7 @@
 //#include "Item.h"
 #include <cstring>
 #include <vector>
+#include <cstdlib>
 #include <map>
 using namespace std;
 Room::Room(){ // constuctor
