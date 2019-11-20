@@ -3,6 +3,7 @@
 #include <iostream> // libraries
 #include <cstring> // This is the room class and it contains the name, description, and room inventory or rinvent
 #include <vector>
+#include <cstdlib>
 #include <map>
 #include "Item.h"
 using namespace std;
