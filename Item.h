@@ -1,6 +1,7 @@
 #ifndef ITEM_H // library. This the item class which contains the name
 #define ITEM_H
 #include<iostream>
+#include <cstdlib>
 #include<cstring>
 
 using namespace std;
