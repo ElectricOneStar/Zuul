@@ -3,7 +3,6 @@ Zuul by Andrew Thomas 11/19/19 Mr.Galbraith C++ Class Semester 1.
 This projects is game where there are rooms that contain items in them. The user can pick and drop items and can go from one room to another by saying go with a cardinal direction. they can also manually quit the game by typing quit. they can type in inventory to get their inventory or type in room informaiton to get the information about the room(Description, items, exits). You can win the game by pick the key from the Janitory room and going to the band room with the chest and dropping the key there.
  */
 #include <iostream> // libraries
-#include <cstdlib>
 #include "Room.h"
 #include "Item.h"
 #include <vector>
@@ -412,7 +411,7 @@ int main(){
       id = counterThree;
       temp = (*it);
     }
-    counterFive++;
+    counterThree++;
 	   }
          
 	   (*(*CurrentRoom).GetVector()).erase(id + (*(*CurrentRoom).GetVector()).begin()); // delete from room inventory
