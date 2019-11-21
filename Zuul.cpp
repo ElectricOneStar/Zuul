@@ -6,6 +6,7 @@ This projects is game where there are rooms that contain items in them. The user
 #include "Room.h"
 #include "Item.h"
 #include <vector>
+#include <cstdlib>
 #include <cstring>
 #include <map>
 using namespace std;
